@@ -71,7 +71,7 @@ LaTeX symbols. Hotstring to send the symbol is the same as the LaTeX syntax.
 
 ## `nav.ahk`
 
-Some hotkeys to quickly navigate around using the keyboard. Some require vim to be enabled in its app. Currently has some shortcuts for general vim-like navigation, hotkeys for [PowerToys Run](https://learn.microsoft.com/en-gb/windows/powertoys/run) and [Obsidian.md](https://obsidian.md/).
+Some hotkeys to quickly navigate around using the keyboard.
 - Toggle suspend with <kbd>Ctrl</kbd> <kbd>Win</kbd> <kbd>K</kbd>
 - Reload with <kbd>Win</kbd> <kbd>F11</kbd>
 

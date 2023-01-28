@@ -4,7 +4,8 @@
 
 ; within other text | no end char needed | case sensitive
 #Hotstring ? * C
-; allow to activate other #InputLevel
+; allow to activate other #InputLevel 1
+; can override some hotstrings from `fonts.ahk`
 #InputLevel 1
 
 ::\!``::¡
@@ -166,9 +167,7 @@
 ::ẹlta::δ
 ::ẹscnode::☋
 ; override ::\dh::
-#InputLevel 0
 ::ḥ::ð
-#InputLevel 1
 :X:ịamond:: SendEvent("⋄")
 ::⋄suit::♢
 ::ịgamma::Ϝ
@@ -502,9 +501,8 @@
 ::ḛxtturny::ʎ
 ::ḛxtupsilon::ʊ
 ::ḛxtyogh::ʒ
-#InputLevel 0
+; override ::\th::
 :X:h̰:: SendEvent("þ")
-#InputLevel 1
 ::þerefore::∴
 ::þeta::θ
 ::þickapprox::≈

@@ -10,14 +10,13 @@
 ^#k:: Suspend()
 #SuspendExempt false
 
-; vim-like keybindings in insert mode
 ; arrow shortcuts
-CapsLock & h::left
-CapsLock & k::up
-CapsLock & j::down
+CapsLock & j::left
+CapsLock & i::up
+CapsLock & k::down
 CapsLock & l::right
 
-CapsLock & g::Home
+CapsLock & h::Home
 CapsLock & `;::End
 
 ; new line with comma end
@@ -29,9 +28,11 @@ CapsLock & ':: Send("{End};{Enter}")
 #HotIf WinActive("ahk_exe Obsidian.exe")
 
 ; ctrl+enter to make new line
-; requires vim
-; not using `{Esc}o` because `o` always makes a new blank line
-; using `{Enter}` because it can continue bullet points, etc...
-^Enter:: Send("{Esc}A{Enter}")
+^Enter:: 
+{
+    Send("{End}{End}")
+    Sleep(1)
+    Send("{Enter}")
+}
 
 #HotIf

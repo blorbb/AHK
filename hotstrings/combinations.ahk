@@ -5,7 +5,7 @@
  */
 
 ; allow to trigger other hotstrings
-#InputLevel 1
+#InputLevel 2
 
 ; https://www.autohotkey.com/docs/v2/lib/InputHook.htm
 
