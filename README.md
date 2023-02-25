@@ -87,6 +87,19 @@ Creates a tooltip for the prefixes used in [PowerToys Run](https://learn.microso
   - Place the tooltip in the middle horizontally/vertically with `(Left+Right)/2` or `(Top+Bottom)/2` respectively.
 - Note: for some reason, when activating the hotkey for the first time after reloading, the tooltip is placed in the center of the primary monitor. Not sure why this happens. Fixed the next time the hotkey is activated.
 
+### `find.ahk`
+
+A tool to quickly move your cursor to a character. Character must be in the same line as your cursor.
+- Activate one of the hotkeys then enter the character that you want to move your cursor to (case sensitive).
+- The hotkeys included are:
+  - <kbd>Caps</kbd> <kbd>F</kbd> to look **in front** of your cursor, and place it **after** that character.
+  - <kbd>Caps</kbd> <kbd>D</kbd> to look **behind** your cursor, and place it **before** that character.
+  - <kbd>Caps</kbd> <kbd>T</kbd> to look **in front** of your cursor, and place it **before** that character.
+  - <kbd>Caps</kbd> <kbd>R</kbd> to look **behind** your cursor, and place it **after** that character.
+  - Hold <kbd>Shift</kbd> while pressing any of the above hotkeys to also **select** text (From your cursor position to the character, before/after) 
+    - Don't need to hold shift after pressing the hotkey.
+    - Doesn't work to expand an existing selection.
+
 
 ## Adding your own hotstrings
 

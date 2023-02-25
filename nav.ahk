@@ -1,6 +1,7 @@
 #Requires AutoHotkey v2.0
 
 #Include ./nav/pt_run.ahk
+#Include ./nav/find.ahk
 
 #SuspendExempt true
 ; Win + F11
